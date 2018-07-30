@@ -68,5 +68,5 @@ def find_all_occurrences(text_to_search, sub_text):
 
     if not result:
         return '<No Output>'
-    else:
-        return ', '.join(result)
+
+    return ', '.join(result)
